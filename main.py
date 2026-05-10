@@ -28,7 +28,7 @@ async def on_message(message):
             webhook = discord.Webhook.from_url(WEBHOOK_URL, session=session)
             await webhook.send(
                 content = f"Someone said the magic word! Here is the link: {LINK_TO_SEND}",
-                username = "Haddock"
+                username = "Helder"
             )
 
 
