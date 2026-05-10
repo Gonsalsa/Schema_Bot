@@ -27,7 +27,7 @@ async def on_message(message):
         async with aiohttp.ClientSession() as session:
             webhook = discord.Webhook.from_url(WEBHOOK_URL, session=session)
             await webhook.send(
-                content = f"Someone said the magic word! Here is the link: {LINK_TO_SEND}",
+                content = f"Någon sa det magiska ordet, här är länken: {LINK_TO_SEND}",
                 username = "Helder"
             )
 
