@@ -8,7 +8,7 @@ load_dotenv()
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 LINK_TO_SEND = "https://cloud.timeedit.net/eeg/web/public1/ri1f7X7Q97ZZ3YQf5Q0443Y8yQY.html"
-TRIGGER_WORDS = ["schema", "schemat", "har vi skola", "på plats imorgon", "lektion imorgon"]
+TRIGGER_WORDS = ["schema", "schemat", "har vi skola", "på plats", "lektion imorgon"]
 
 intents = discord.Intents.default()
 intents.message_content = True
